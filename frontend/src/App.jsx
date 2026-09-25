@@ -32,7 +32,7 @@ function App() {
     formData.append("image", image);
 
     try {
-      const response = await fetch("http://localhost:5000/api/resume", {
+    const response = await fetch("https://resume-multer-backend-production.up.railway.app/api/resume",{
         method: "POST",
         body: formData,
       });

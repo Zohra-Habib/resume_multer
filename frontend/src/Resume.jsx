@@ -33,7 +33,7 @@ function Resume() {
         <div className="bg-slate-800 text-white p-10 flex flex-col md:flex-row items-center gap-8">
 
           <img
-            src={`http://localhost:5000${resume.image}`}
+            src={`https://resume-multer-backend-production.up.railway.app${resume.image}`}
             alt={resume.name}
             className="w-36 h-36 rounded-full object-cover border-4 border-white shadow-lg"
           />
